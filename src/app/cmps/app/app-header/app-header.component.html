@@ -1,0 +1,28 @@
+<header class="app-header">
+  <a routerLink="/" class="app-header-logo" title="Check your current Balance"
+    >₿itHub</a
+  >
+  <h2 class="app-header-rate" title="Current Bitcoin Rate in American Dollar">
+    1$ = {{ rate | async }}₿
+  </h2>
+  <nav class="app-header-nav">
+    <a
+      routerLink="/"
+      routerLinkActive="active"
+      [routerLinkActiveOptions]="{ exact: true }"
+      >Balance</a
+    >
+    <a routerLink="/contact" routerLinkActive="active">Contacts</a>
+    <a routerLink="/stats" routerLinkActive="active">Stats</a>
+  </nav>
+  <div class="app-header-exchange">
+    <!-- <h1 *ngIf="user" title="The best person!">{{ user.name }}</h1> -->
+    <h1> Kavya Lokuge</h1>
+    <img
+      *ngIf="user"
+      src="https://avatars.githubusercontent.com/u/82757644?s=400&u=a61b966e1196181cd8c3864b3f8452c70e73773a&v=4"
+      [alt]="user.name"
+      [title]="user.name"
+    />
+  </div>
+</header>
