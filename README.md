@@ -1,8 +1,8 @@
-# Mister Bitcoin: Your Simple and Intuitive Angular-based Web App for Managing Bitcoin Transactions
+# BitHub: An Angular-powered web application that offers an uncomplicated and user-friendly solution for managing Bitcoin transactions.
 
-**Mister Bitcoin** is a web application that enables users to view real-time market prices for Bitcoin and track and manage their Bitcoin transactions. Built using Angular.js, the application boasts a responsive design and CRUDL capabilities for contacts and user messages. Additionally, the app features third-party libraries and tools for presenting data using charts, making it easy for users to analyze Bitcoin market trends.
+**BitHub** is a web-based application that empowers users to observe the current market prices of Bitcoin in real-time, as well as track and administer their Bitcoin transactions. Developed with Angular.js, the application showcases a responsive layout and allows CRUDL functionality for contacts and user messages. Furthermore, the application integrates third-party libraries and tools for presenting data in the form of charts, enabling users to easily analyze Bitcoin market trends.
 
-![Ex-Mister-Bitcoin-Angular-Contact](https://user-images.githubusercontent.com/35638060/220800417-c51e639c-6cec-4ae7-8237-0dcfaeec8905.png)
+![BitHub](https://github.com/kavyaLokuge/BitHub/blob/master/screenShots/Home.png)
 
 ### Table of Contents
 
@@ -14,15 +14,17 @@
 
 ## Description
 
-**Mister Bitcoin** is a Angular.js-based web application that provides users with a simple and intuitive way to view market prices for Bitcoin and manage their transactions. The application features a well-designed and responsive user interface that is both easy to navigate and efficient to use. With CRUDL capabilities for contacts and user messages, users can easily manage their contacts and track their transactions without having to switch between different applications.
+**Mister Bitcoin** BitHub is an Angular.js-based web application that allows users to view market prices for Bitcoin and manage their transactions in a simple and intuitive way. The application features a well-designed and responsive user interface that is easy to navigate and efficient to use.
 
-To help users stay up to date with the latest Bitcoin market trends, **Mister Bitcoin** integrates third-party libraries for presenting data using charts. This enables users to quickly analyze market trends and make informed decisions about their transactions.
+The application provides CRUDL capabilities for contacts and user messages, enabling users to easily manage their contacts and track their transactions without having to switch between different applications.
 
-To get started with the app, users can clone the project or download the files, install the dependencies, and run the app in development mode. The app can be accessed through http://localhost:4200 and features a home page for viewing market prices, a contact list for managing contacts, an edit contact page for updating contact details, and a statistics page for viewing Bitcoin market trends.
+To help users stay up to date with the latest Bitcoin market trends, BitHub integrates third-party libraries for presenting data using charts. This allows users to quickly analyze market trends and make informed decisions about their transactions.
+
+BitHub is designed to provide a seamless experience for Bitcoin traders and enthusiasts who want to stay on top of the latest market trends and manage their transactions in one place. Whether you're new to Bitcoin or an experienced trader, BitHub has everything you need to stay informed and manage your transactions with ease.
 
 ## Features
 
-**Mister Bitcoin** features the following:
+**BitHub** features the following:
 
 <!-- - Simple authentication - store and session storage. -->
 
@@ -35,10 +37,10 @@ Please feel free to take a look of the different components of the website - [Sh
 
 ## Getting started
 
-To get started with **Mister Bitcoin**, clone the project or download the files:
+To get started with **BitHub**, clone the project or download the files:
 
 ```
-git clone https://github.com/Darkfall48/Ex-Mister-Bitcoin-Angular.git
+git clone https://github.com/kavyaLokuge/BitHub.git
 ```
 
 Then install the dependencies in the local node_modules folder:
@@ -59,31 +61,30 @@ This will run the app in development mode. Now, open http://localhost:4200 to vi
 
 ### Home Page
 
-![Ex-Mister-Bitcoin-Angular-Home](https://user-images.githubusercontent.com/35638060/220800522-d47c29ee-df80-46b8-95fd-235dff95772e.png)
+![BitHub-Home](https://github.com/kavyaLokuge/BitHub/blob/master/screenShots/Home.png)
 
-This page presents an overview of the current Bitcoin market prices, including the current Bitcoin value, percentage changes, and more. It features a responsive design and displays data in a chart and table format, providing an intuitive and easy-to-understand interface for users.
+This page provides a comprehensive snapshot of the present Bitcoin market prices, comprising the current Bitcoin value, percentage fluctuations, and additional information. It showcases a responsive layout that exhibits data in both chart and table formats, creating an intuitive and user-friendly interface for users to comprehend
 
 ### Contact List
 
-![Ex-Mister-Bitcoin-Angular-Contact](https://user-images.githubusercontent.com/35638060/220800574-ed6e6406-32e2-4d0d-99c4-de1918f5f281.png)
+![BitHub-Contacts](https://github.com/kavyaLokuge/BitHub/blob/master/screenShots/ContactsList.png)
 
-This page allows users to view and manage their contact list, which includes the names and details of individuals or organizations that are associated with their Bitcoin transactions. Users can add, delete, and edit contacts as needed, providing a streamlined and efficient way to keep track of their Bitcoin transactions.
+This page facilitates the viewing and administration of users' contact list, encompassing the names and particulars of individuals or organizations linked to their Bitcoin transactions. Users can conveniently add, delete, and modify contacts as required, streamlining the process and enhancing efficiency in keeping track of their Bitcoin transactions.
 
 ### Edit Contact
 
-![Ex-Mister-Bitcoin-Angular-Contact-Edit](https://user-images.githubusercontent.com/35638060/220800664-911c9406-7d55-430c-ad93-aa7699a100b9.png)
+![BitHub-Contact-Edit](https://github.com/kavyaLokuge/BitHub/blob/master/screenShots/EditContacts.png)
 
-This page allows users to edit their contact information, including the name, email, and notes associated with each contact. It also features a responsive design and provides an intuitive interface for users to update their contact details as needed.
+This page permits users to modify their contact details, comprising the name, email, and notes linked to each contact. It showcases a responsive layout and offers an intuitive interface, facilitating users to conveniently update their contact information whenever necessary.
 
 ### Statistics
 
-![Ex-Mister-Bitcoin-Angular-Statistics](https://user-images.githubusercontent.com/35638060/220800739-3d9f2dc0-3ddb-4f70-98eb-f364f084fa3d.png)
+![BitHub](https://github.com/kavyaLokuge/BitHub/blob/master/screenShots/stats.png)
 
-This page presents a range of statistics related to Bitcoin, including the historical price changes, market capitalization, and more. It displays data in a chart format, providing an easy-to-understand and interactive interface for users to analyze Bitcoin market trends.
-
+This page shows Bitcoin statistics, comprising historical price fluctuations, market capitalization, and other relevant data. It showcases the information in an interactive chart format, allowing users to conveniently analyze and comprehend Bitcoin market trends.
 ### Technologies Used
 
-The technologies used in building **Mister Bitcoin** include:
+The technologies used in building **BitHub** :
 
 - **Angular**: a TypeScript-based open-source web application framework used for building user interfaces and single-page applications.
 - **Angular chart.js**: an Angular wrapper for Chart.js, a JavaScript library for creating beautiful charts and graphs.
@@ -91,8 +92,5 @@ The technologies used in building **Mister Bitcoin** include:
 - **RxJS**: a library for reactive programming using Observables, used extensively in Angular applications.
 - **Sass**: a preprocessor scripting language used to create CSS stylesheets.
 - **Angular CLI**: a command-line interface for creating, configuring, and deploying Angular projects.
-- **GitHub Pages**: a static site hosting service that allows you to host your website directly from your GitHub repository.
 
-### Live Demo
 
-The live demo for this project can be found at https://darkfall48.github.io/Ex-Mister-Bitcoin-Angular/. The demo allows you to test the various features of the application in a web browser without the need to download or install any files locally.
